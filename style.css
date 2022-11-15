@@ -46,3 +46,10 @@ body {
 	padding-Right: 10%;
 	margin-Right: 0.5rem;
 }
+
+span {
+	padding-bottom: 1rem;
+	margin-left: .5rem;
+	margin-Right: .5rem;
+	text-align: center;
+}
