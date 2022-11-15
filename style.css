@@ -27,10 +27,10 @@ body {
 .container .title {
 	color: white;
 	text-align: Right;
-	font-size: 2.6em;
+	font-size: 5em;
 	margin: 0;
 	font-family: Zilla Slab, sans-serif;
-	line-height: 3rem;
+	line-height: 5rem;
 	padding-top: 10%;
 	padding-Right: 10%;
 	margin-Right: 0.5rem;
@@ -39,7 +39,7 @@ body {
 .container .subtitle {
 	color: white;
 	text-align: Right;
-	font-size: 1.2em;
+	font-size: 2.5em;
 	margin: 0;
 	font-family: Zilla Slab, sans-serif;
 	padding-top: .8%;
