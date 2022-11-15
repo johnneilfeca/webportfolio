@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#img-logo{
+	width: 40px;
+	height: 40px;
+}
+
+#img-bg {
+	background-image: url(./Assets/Nov1.png);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.front-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 100vh;
+}
+
+.container .title {
+	color: white;
+	text-align: Right;
+	font-size: 2.6em;
+	margin: 0;
+	font-family: Zilla Slab, sans-serif;
+	line-height: 3rem;
+	padding-top: 10%;
+	padding-Right: 10%;
+	margin-Right: 0.5rem;
+}
+
+.container .subtitle {
+	color: white;
+	text-align: Right;
+	font-size: 1.2em;
+	margin: 0;
+	font-family: Zilla Slab, sans-serif;
+	padding-top: .8%;
+	padding-Right: 10%;
+	margin-Right: 0.5rem;
+}
