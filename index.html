@@ -75,16 +75,16 @@
 			</div>
 
 				<!-- Start of Projects Section -->
-				<div class="bg-dark text-light min-vh-100 p-5">
+				<div class="bg-dark text-light min-vh-100 pl-5 pt-5 pr-5 pb-0 mb-0">
 
-					<div class="bg-secondary min-vh-100 p-5">
-						<h2 class="mb-3">About Us</h2>
+					<div class="bg-secondary min-vh-100 p-5 rounded">
+						<h1 class="pt-3">About Us</h1>
 
 						<!-- Start of Other Projects Section -->
 						<div class="row p-5 justify-content-center">
 
 							<!-- Start of HTML Card -->
-							<div class="card bg-dark">
+							<div class="card bg-dark m-3 rounded">
 							  <div class="card-body offset-3 col-6 d-flex justify-content-center flex-row">
 
 							  	<div class="row d-flex justify-content-center align-items-center flex-column text-justify pr-5">
@@ -111,7 +111,7 @@
 							<!-- End of HTML Card -->
 
 							<!-- Start of Bootstrap Card -->
-							<div class="card bg-dark">
+							<div class="card bg-dark m-3 rounded">
 							  <div class="card-body offset-3 col-6 d-flex justify-content-center flex-row">
 
 							   	<div class="row d-flex justify-content-center align-items-center flex-column">
@@ -139,7 +139,7 @@
 							<!-- End of Bootstrap Card -->
 
 							<!-- Start of Node JS Card -->
-							<div class="card bg-dark">
+							<div class="card bg-dark m-3 rounded">
 							  <div class="card-body offset-3 col-6 d-flex justify-content-center flex-row">
 
 							  	<div class="row d-flex justify-content-center align-items-center flex-column pr-5">
@@ -171,7 +171,10 @@
 
 
 			<!-- Start of Carousel -->
-			<div class="row d-none d-md-block mt-md-5">
+
+			<h1 class="mt-5 mb-0">Gallery</h1>
+
+			<div class="row d-none d-md-block mt-5 mb-4 pb-5 rounded">
 			 	<div class="pl-5 pr-5 ml-5 mr-5">
 			 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			 		  <ol class="carousel-indicators">
@@ -215,12 +218,79 @@
 			</div>
 			<!-- End of Carousel -->
 
+			<div class="bg-secondary min-vh-100 p-5 rounded">
+				<h1 class="pt-3">Contacts Us</h1>
 
+				<form class="bg-dark offset-3 col-6 d-flex justify-content-center flex-column rounded mt-5">
+
+					<!-- Start of Button Modal -->
+					<div class="modal fade" id="submitBtn" tabindex="-1" role="dialog" aria-labelledby="submitBtn" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title text-dark" id="exampleModalLabel">
+					       	 Thank you for contacting us!
+					    	</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body text-dark font-weight-bold">
+					      	Message Successfully Sent
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+					       	 Close
+					    	</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End of Button Modal -->
+
+					<div class="form-group pt-3 w-100">
+						<div>
+						    <label for="name">Name</label>
+						    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+					    </div>
+
+					    <div class="d-flex justify-content-center flex-row">			
+							    <div class="pt-3 mr-1 w-100">
+								    <label for="email">Email address</label>
+								    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+							    </div> 
+							    <div class="pt-3 ml-1 w-100">
+								    <label for="number">Contact Number</label>
+								    <input type="text" class="form-control" id="number" placeholder="+63 900 000 0000" required>
+							    </div>
+					    </div>
+					    <div class="pt-3">
+						    <label for="message">Message</label>
+						    <textarea class="form-control" id="message" rows="5">
+						    </textarea>
+					    </div>
+					</div>
+					<div>
+						<button type="submit" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#submitBtn">Send Email</button>
+					</div>
+				</form>
+			</div>
+			<!-- End of Contacts Section -->
+			</div>
 		</div>	
 
 	</div>
 	<!-- End of Main Content Section -->
 
+	<!-- Footer -->
+	<div class="bg-info text-center text-white pt-4 pb-4" >
+	    <span>Terms of Service</span>
+	    <span>|</span>
+	    <span>Privacy Policy</span>
+	    <span>|</span>
+	    <span>&copy; 2022 Zuitt. All Rights Reserved</span>
+	</div>
+	<!-- End of Footer -->
 
 
 
